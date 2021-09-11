@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
+        android:contentDescription="@string/welcome"
         android:gravity="center"
         android:text="@string/welcome"
         android:textColor="@color/wolverine_green"
@@ -20,6 +21,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/welcome" />
+
+    <ImageView
+        android:id="@+id/welcomeImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/mascotText"
+        app:srcCompat="@drawable/mascot_combo" />
 
 </LinearLayout>

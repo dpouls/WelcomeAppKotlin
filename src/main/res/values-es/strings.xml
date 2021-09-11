@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bienvenido</string>
+    <string name="welcome">DLP te da un bienvenido a UVU</string>
+    <string name="mascotText">Un animal que da mucho miedo</string>
+</resources>

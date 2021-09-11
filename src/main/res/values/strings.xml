@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Welcome</string>
     <string name="welcome">DLP welcomes you to UVU!</string>
+    <string name="mascotText">The incredibly feared wolverine logo of UVU</string>
 </resources>
